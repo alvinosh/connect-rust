@@ -9,4 +9,4 @@ about = "A terminal bassed connect 4 game"
 
 [dependencies]
 clap = { version = "3.2.16", features = ["derive"] }
-crossterm = "0.24.0"
+crossterm = { version = "0.24.0", features = ["event-stream"] }
